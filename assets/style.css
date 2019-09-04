@@ -11,6 +11,7 @@ body {
   }
   
   /* general */
+
   
   .container {
     width: 100%;
@@ -216,20 +217,30 @@ body {
     border: 0 none;
   }
   
-@media (max-width: 960px) {
+@media screen (max-width: 960px) {
+
   p {
     font-size: 20px;
   }
 )
 
- @media (max-width: 768px) {
+ @media screen (max-width: 768px) {
+  
   p {
     font-size: 15px;
   }
 }
 
-@media (max-width: 640px) {
-  p {
+@media screen and (max-width: 640px) {
+ .nav {
+   float: none;
+  
+ }
+ .logo {
+   width: 100%;
+ }
+
+  p { 
     font-size: 12px;
   }
 }
